@@ -44,8 +44,8 @@
   }
 
   .banner__box:nth-child(2) {
-    grid-column: span 4;
-    grid-row: span 3;
+    grid-column: 4 span;
+    grid-row: 3 span;
   }
 
   .banner__box-top {
@@ -86,15 +86,15 @@
   }
 
   .section__new-box-card-top-h {
-    padding: 80px 100px 0 60px;
+    padding: 90px 20px 0 60px;
   }
 
   .section__new-box-card-top-p {
-    padding: 5px 100px 0 64px;
+    padding: 5px 20px 0 64px;
   }
 
-  .section__new-box-card-time-p {
-    padding: 0 0 0 0;
+  .section__new-box-card-time {
+    padding: 10px 0 10px 60px;
   }
 }
 

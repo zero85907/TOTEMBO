@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1350px;
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -51,12 +51,14 @@ body {
 
 .header-el_right {
   display: flex;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   gap: 40px;
 }
 
-.header__nav::after {
+.header__top::after {
   content: "";
+  max-width: 1320px;
   width: 100%;
   height: 2px;
   background: #323232;
@@ -74,7 +76,7 @@ body {
 .banner__grid {
   display: grid;
   grid-auto-rows: 150px;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   height: 100%;
 }
@@ -89,17 +91,17 @@ body {
 }
 
 .banner__box:nth-child(1) {
-  grid-column: 4 span;
+  grid-column: 0 span;
   grid-row: 2 span;
 }
 
 .banner__box:nth-child(2) {
-  grid-column: 5 span;
+  grid-column: 1 span;
   grid-row: 4 span;
 }
 
 .banner__box:nth-child(3) {
-  grid-column: 4 span;
+  
   grid-row: 2 span;
 }
 .banner__box-watch-img {
@@ -506,16 +508,18 @@ body {
 
 .section__new {
   max-width: 1350px;
-  width: 100%;
-  height: 100%;
+  width: 1296px;
+  height: 470px;
   margin: 0 auto;
   padding: 0 0 60px 0;
+  display: flex;
+  align-content: inherit;justify-content: center;
 }
 
 .section__grid {
   display: grid;
   grid-auto-rows: 200px;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   height: 100%;
   gap: 24px;
 }
@@ -531,12 +535,12 @@ body {
 }
 
 .section__new-box:nth-child(1) {
-  grid-column: 4 span;
+  grid-column: 2 span;
   grid-row: 2 span;
 }
 
 .section__new-box2:nth-child(2) {
-  grid-column: 4 span;
+  grid-column: 2 span;
   grid-row: 2 span;
 }
 
@@ -545,7 +549,7 @@ body {
 }
 
 .section__new-box-card-top-h {
-  padding: 110px 110px 0 60px;
+  /* padding: 110px 110px 0 60px; */
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 20px;
@@ -566,7 +570,7 @@ body {
 }
 
 .section__new-box-card-top-p {
-  padding: 30px 110px 0 64px;
+  /* padding: 30px 110px 0 64px; */
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -575,7 +579,7 @@ body {
 
 .section__new-box-card-time {
   display: flex;
-  padding: 30px 0 0 60px;
+  /* padding: 30px 0 0 60px; */
   gap: 10px;
 }
 

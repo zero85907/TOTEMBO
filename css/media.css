@@ -12,13 +12,8 @@
   }
 
   .banner__grid {
-    grid-auto-rows: 160px;
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .banner__box:nth-child(1) {
-    grid-column: 2 span;
-    grid-row: 2 span;
+    grid-auto-rows: 294px;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .banner__box:nth-child(2) {
@@ -27,19 +22,14 @@
     order: 3;
   }
 
-  .banner__box:nth-child(3) {
-    grid-column: 2 span;
-    grid-row: 2 span;
-  }
-
   .info__grid {
     grid-auto-rows: 485px;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .section__new {
+    max-width: 636px;
     width: 100%;
-    max-width: 600px;
   }
 
   .section__grid {
@@ -61,7 +51,7 @@
   }
 
   .section__new-box-card-top {
-    padding: 100px 10px 10px 10px;
+    padding: 100px 10px 40px 10px;
   }
 
   .section__new-box-card-time {

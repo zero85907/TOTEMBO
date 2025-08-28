@@ -119,3 +119,9 @@
     grid-column: 2 span;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .section__new-box-card-top {
+    padding: 100px 10px 10px 15px;
+  }
+}

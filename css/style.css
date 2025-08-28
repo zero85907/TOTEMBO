@@ -141,68 +141,6 @@ body {
   left: 20px;
 }
 
-.banner__box-p3 {
-  font-weight: 400;
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-
-.banner__box-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 22px;
-}
-
-.banner__box-p4 {
-  font-weight: 400;
-  font-size: 16px;
-  margin-top: 20px;
-}
-
-.banner__box-a2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  background: #323232;
-  color: #fff;
-  padding: 11px 30px;
-  border-radius: 10px;
-  position: absolute;
-  top: -270px;
-  right: 445px;
-}
-
-.banner__box-p5 {
-  font-weight: 400;
-  font-size: 15px;
-  margin-bottom: 20px;
-}
-
-.banner__box-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 15px;
-}
-
-.banner__box-p6 {
-  font-weight: 400;
-  font-size: 15px;
-  margin-top: 20px;
-}
-
-.banner__box-a3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  background: #323232;
-  color: #fff;
-  padding: 11px 30px;
-  border-radius: 10px;
-  position: absolute;
-  top: -100px;
-  right: 295px;
-}
-
 .main {
   padding: 60px 0 0 0;
 }
@@ -255,8 +193,6 @@ body {
   position: relative;
 }
 
-
-
 .info__news-box-watch {
   display: flex;
   align-items: center;
@@ -307,10 +243,10 @@ body {
   font-size: 20px;
   background: #323232;
   color: #fff;
-  padding: 13px 34px;
+  padding: 13px 30px;
   border-radius: 10px;
   position: absolute;
-  top: 20px;
+  top: 15px;
   left: 20px;
 }
 
@@ -331,8 +267,6 @@ body {
   top: 90px;
   right: 20px;
 }
-
-
 
 .info__news-title {
   padding: 60px 0 0 0;
@@ -385,7 +319,7 @@ body {
 
 .section__grid {
   display: grid;
-  grid-auto-rows: 200px;
+  grid-auto-rows: 470px;
   grid-template-columns: repeat(2, 1fr);
   height: 100%;
   gap: 24px;
@@ -398,16 +332,16 @@ body {
 
 .section__new-box:nth-child(1) {
   background: url("../img/paintig1.svg") no-repeat top center/cover;
-  grid-row: 2 span;
+  
 }
 
 .section__new-box:nth-child(2) {
   background: url("../img/painting2.svg") no-repeat top center/cover;
-  grid-row: 2 span;
+  
 }
 
 .section__new-box-card-top {
-  padding: 110px 110px 10px 60px;
+  padding: 110px 110px 70px 60px;
 }
 
 .section__new-box-card-top-h {
@@ -438,12 +372,13 @@ body {
   color: #e1e1e1;
   margin-top: 30px;
   margin-left: 4px;
+  
 }
 
 .section__new-box-card-time {
   display: flex;
   gap: 10px;
-  margin-top: 90px;
+  margin-top: 100px;
 }
 
 .section__new-box-card-time-p {

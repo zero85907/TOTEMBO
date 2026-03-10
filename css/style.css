@@ -63,9 +63,16 @@ body {
   height: 2px;
   background: #323232;
   position: absolute;
-  bottom: 20px;
+    content: none;
 }
 
+/* Линия под шапкой */
+.header__line {
+  width: 100%;
+  height: 2px;
+  background: #323232;
+  margin: 32px 0 0 0;
+}
 .banner__grid {
   display: grid;
   grid-auto-rows: 294px;
